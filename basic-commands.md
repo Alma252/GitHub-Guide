@@ -45,3 +45,80 @@ git clone https://github.com/USERNAME/REPO-NAME.git
 |-------|--------|
 | `git init` | شروع یک پروژه جدید از صفر |
 | `git clone` | دریافت پروژه‌ای که قبلاً وجود دارد |
+
+
+## ۴. مشاهده وضعیت پروژه (git status)
+
+نشان می‌دهد کدام فایل‌ها تغییر کرده‌اند و کدام‌ها آماده Commit هستند.
+
+```bash
+git status
+```
+
+## ۵. آماده‌سازی تغییرات (git add)
+
+قبل از Commit باید مشخص کنید کدام تغییرات وارد آن شوند.
+
+```bash
+git add file.txt     # اضافه کردن یک فایل
+git add .            # اضافه کردن همه تغییرات
+```
+
+## ۶. ثبت تغییرات (git commit)
+
+Commit مثل یک «عکس از وضعیت پروژه» در یک لحظه است. پیام Commit باید توضیح دهد چه کاری انجام داده‌اید.
+
+```bash
+git commit -m "Add login page"
+```
+
+مثال پیام خوب و بد:
+
+| پیام بد | پیام خوب |
+|---------|----------|
+| `update` | `Fix typo in README title` |
+| `test` | `Add user registration form` |
+
+## ۷. ارسال تغییرات به GitHub (git push)
+
+```bash
+git push origin main
+```
+
+اولین بار برای یک Branch جدید:
+
+```bash
+git push -u origin feature/my-branch
+```
+
+## ۸. دریافت تغییرات دیگران (git pull)
+
+قبل از شروع کار، تغییرات جدید تیم را بگیرید:
+
+```bash
+git pull origin main
+```
+
+## ۹. مشاهده تاریخچه (git log)
+
+```bash
+git log
+git log --oneline    # نمایش خلاصه
+```
+
+خروجی نمونه:
+
+```
+a1b2c3d Add status, add, commit sections
+e4f5g6h Add git config, init and clone sections
+```
+
+## جمع‌بندی: چرخه کار روزانه
+
+```bash
+git pull                    # دریافت آخرین تغییرات
+# ... انجام تغییرات ...
+git add .                   # آماده‌سازی
+git commit -m "پیام معنادار"  # ثبت
+git push                    # ارسال
+```
