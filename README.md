@@ -9,9 +9,9 @@
 ## اعضای گروه
 | نام | نقش | GitHub |
 |-----|-----|--------|
-| شیدا عسکری | Scrum Master | [Alma252](https://github.com/username) |
-| علی صحاف‌پور | Developer | [ ali-sahaf ](https://github.com/username) |
-| امیرحسین عامری | Developer | [ Amir-dev2004 ](https://github.com/username) |
+| شیدا عسکری | Scrum Master | [Alma252](https://github.com/Alma252) |
+| علی صحاف‌پور | Developer | [ ali-sahaf ](https://github.com/ali-sahaf) |
+| امیرحسین عامری | Developer | [ Amir-dev2004 ](https://github.com/Amir-dev2004) |
 
 ## ساختار پروژه
 - `basic-commands.md`: دستورات پایه Git
