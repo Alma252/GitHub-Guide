@@ -50,9 +50,9 @@ git merge feature/login
 
 **Step 4: Push the changes**
 
-```bash
-git push origin main
-```
+**Important:**
+
+In team projects, developers should not push directly to the main branch. Instead, they should use Pull Requests to merge their changes after review and approval.
 
 ## 5. Practical Example
 
