@@ -81,8 +81,10 @@ git commit -m "Add login page"
 
 ## ۷. ارسال تغییرات به GitHub (git push)
 
+: «در کار تیمی مستقیم روی main پوش نمی‌کنیم و از شاخه مستقل استفاده می‌کنیم.» 
+
 ```bash
-git push origin main
+git push -u origin feature/my-branch
 ```
 
 اولین بار برای یک Branch جدید:
@@ -94,6 +96,8 @@ git push -u origin feature/my-branch
 ## ۸. دریافت تغییرات دیگران (git pull)
 
 قبل از شروع کار، تغییرات جدید تیم را بگیرید:
+دستور git pull origin main تغییرات شاخه main را در شاخه‌ای که
+اکنون روی آن هستید ادغام می‌کند؛ خودش شما را وارد main نمی‌کند. 
 
 ```bash
 git pull origin main
@@ -110,7 +114,7 @@ git log --oneline    # نمایش خلاصه
 
 ```
 a1b2c3d Add status, add, commit sections
-e4f5g6h Add git config, init and clone sections
+e4f5a6b Add git config, init and clone sections
 ```
 
 ## جمع‌بندی: چرخه کار روزانه
