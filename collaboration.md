@@ -57,8 +57,44 @@ git push -u origin feature/login
 
 **Step 5: Open GitHub and create a Pull Request.**
 
-Select the source branch and the target branch, then click Create Pull Request.
+**Step 1: Update the main branch**
 
+```bash
+git checkout main
+git pull origin main
+```
+
+**Step 2: Create a new branch**
+
+```bash
+git checkout -b feature/login
+```
+
+**Step 3: Make changes to your files.**
+
+**Step 4: Save changes with a commit**
+
+```bash
+git add .
+git commit -m "Add login feature"
+```
+
+**Step 5: Push the branch to GitHub**
+
+```bash
+git push -u origin feature/login
+```
+
+**Step 6: Create a Pull Request**
+
+1. Open the Pull Requests tab on GitHub.
+2. Click New Pull Request.
+3. Select `main` as the base branch.
+4. Select `feature/login` as the compare branch.
+5. Write a title and description.
+6. Add a Reviewer.
+7. Add `Closes #IssueNumber` to close the related Issue.
+8. Click Create Pull Request.
 ## 6. What is Code Review?
 
 Code Review is the process of checking another developer's code before merging it.
