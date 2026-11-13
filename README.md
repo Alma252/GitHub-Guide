@@ -19,4 +19,4 @@
 - `merging.md`: ادغام تغییرات
 - `collaboration.md`: کار گروهی در GitHub
 
-## Project Status: Completed
+## Project Status: Under Review
