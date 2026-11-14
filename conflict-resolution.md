@@ -29,12 +29,12 @@ Pull Request صحاف پور ابتدا Merge شد (بدون Conflict).
 **This branch has conflicts that must be resolved** مواجه شد، چون هر دو
 یک خط را تغییر داده بودند.
 
-![پیام Conflict در PR](images/01-conflict-detected.png)
+![پیام Conflict در PR](images/01-conflict-detected.jpg)
 
 ## مرحله ۳: فایل دارای Conflict
 Git علامت‌های Conflict را داخل فایل README قرار داد:
 
-![علامت‌های Conflict](images/02-conflict-markers.png)
+![علامت‌های Conflict](images/02-conflict-markers.jpg)
 
 معنی علامت‌ها:
 
@@ -46,7 +46,7 @@ Git علامت‌های Conflict را داخل فایل README قرار داد:
 عامری فایل را باز کرد، علامت‌ها را حذف کرد و متن نهایی را انتخاب کرد.
 سپس تغییرات را Commit و Push کرد.
 
-![فایل بعد از حل](images/03-conflict-resolved.png)
+![فایل بعد از حل](images/03-conflict-resolved.jpg)
 
 ## مرحله ۵: تکمیل Merge
 بعد از حل Conflict، پیام Conflict از PR برطرف شد و Pull Request Merge شد.
